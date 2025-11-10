@@ -159,11 +159,11 @@ db.declaraciones.aggregate(
 
 ### 07- Calcular superficie promedio.
 
-	Desanida los bienes inmuebles (bienesInmuebles.bienInmueble) y agrúpalos por tipoInmueble.valor para calcular:
+Desanida los bienes inmuebles (bienesInmuebles.bienInmueble) y agrúpalos por tipoInmueble.valor para calcular:
 
-	Promedio de superficie de construcción.
+* Promedio de superficie de construcción.
 
-	Promedio de superficie de terreno.
+* Promedio de superficie de terreno.
 
 ```js
 db.declaraciones.aggregate(
